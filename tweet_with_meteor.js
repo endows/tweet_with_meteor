@@ -20,7 +20,7 @@ if (Meteor.isServer) {
   Meteor.startup(function() {
     var Twitter = Meteor.npmRequire('twitter');
     var client = new Twitter({
-      consumer_key: prosse,
+      consumer_key: 'rp02I9NlanW0Rt1vC6GA',
       consumer_secret: '0II62Hr66QiOKjmASsexCrzPJChkxon1icm2avyQrvM',
       access_token_key: '541346116-xaGlkJZN1xjCOsPWgJepxk7bFFkTwkqrn5G33fLn',
       access_token_secret: 'rzp5nBsqy2FvRAvgENKybQRpE5tUW8XLVi83Ozh3xUz3K'
